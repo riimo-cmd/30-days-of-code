@@ -12,7 +12,7 @@ body{
 .body-wrapper{
 
     background: #EEF4F3fa;
-    padding: 10px 50px;
+    padding: 0.625em 50px;
     margin: 0;
     position: absolute;
     top: 50%;
@@ -54,7 +54,7 @@ p{
     background: #fbfcfb;
     width: 75%;
     height: 5px;
-    margin: 25px auto;
+    margin: 1.5625em auto;
     border-radius: 5px;
 }
 
@@ -92,4 +92,15 @@ a:visited{
 footer{
     margin-top: 40px;
     font-size: 14px;
+}
+
+
+@media screen and (max-width: 600px){
+    .body-wrapper{
+        position: relative; 
+        top: 0%;
+        left: 0%;
+        transform: none;
+        margin: 0 auto;
+    }
 }
