@@ -1,0 +1,95 @@
+
+body{
+    background: url('./images/background-2.jpg') #fbfcfb;
+    background-size: cover;
+    background-repeat: 0;
+    width: fit-content;
+    margin: 0 auto;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.body-wrapper{
+
+    background: #EEF4F3fa;
+    padding: 10px 50px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 25px;
+}
+
+h1{
+    display: none;
+}
+
+p{
+    color: #191c1b;
+}
+
+.tracker-wrapper{
+    
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.streak{
+    font-size: 35px;
+    
+}
+
+.streak p{
+    margin: 0;
+    color: #006A61;
+}
+
+.big-number{
+    font-size: 70px;
+    margin: 0;
+}
+
+.progress-bar{
+    background: #fbfcfb;
+    width: 75%;
+    height: 5px;
+    margin: 25px auto;
+    border-radius: 5px;
+}
+
+.progress{
+    padding: 0;
+    margin: 0;
+    width: 6%;
+    height: 100%;
+    background: #006A61;
+    border-radius: inherit;
+}
+
+h2{
+    color: #006A61;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+strong{
+    color: #006a61;
+}
+
+a{
+    color: #006a61;
+}
+
+a:active, a:hover{
+    color: #7d93ac;
+}
+
+a:visited{
+    color: #191c1b;
+}
+
+footer{
+    margin-top: 40px;
+    font-size: 14px;
+}
